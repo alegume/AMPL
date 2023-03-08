@@ -1,0 +1,5 @@
+reset;
+model '/home/ale/Documents/github/AMPL/102-max-prof-everton-santi.mod';
+option solver cplex;
+solve;
+display objectivo, p, a;

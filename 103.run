@@ -1,0 +1,11 @@
+reset;
+
+model '/home/ale/Documents/github/AMPL/103-max-prof-everton-santi.mod';
+
+data '/home/ale/Documents/github/AMPL/103.dat';
+
+option solver cplex;
+
+solve;
+
+display objetivo, x[1], x[2];

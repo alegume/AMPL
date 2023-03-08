@@ -1,0 +1,11 @@
+reset;
+
+model '/home/ale/Documents/github/AMPL/104-dieta-IPO.mod';
+
+#data '/home/ale/Documents/github/AMPL/104.dat';
+
+option solver gurobi;
+
+solve;
+
+display objetivo, x;

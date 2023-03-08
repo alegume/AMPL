@@ -1,0 +1,5 @@
+reset;
+model '/home/ale/Documents/github/AMPL/101-max-region-IPO.mod';
+option solver gurobi;
+solve;
+display objective, x, y;

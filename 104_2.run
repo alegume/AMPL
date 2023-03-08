@@ -1,0 +1,12 @@
+reset;
+
+model '/home/ale/Documents/github/AMPL/104-dieta-IPO_2.mod';
+
+data '/home/ale/Documents/github/AMPL/104_2.dat';
+
+option solver cplex;
+solve;
+
+display nutri, minimos, c, x;
+
+display objetivo, x;

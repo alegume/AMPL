@@ -1,0 +1,18 @@
+# N itens
+param n:= 2;
+
+# C eh total de horas
+param C:= 2400;
+
+# p eh o lucro gerado
+# l eh minimo
+# u eh o maximo
+param: 		p			l			u	:=
+			1		3			100		1350
+			2		5			300		600;
+
+# t tempo producao item
+param: 		t:=
+			1		2
+			2		5; 
+
